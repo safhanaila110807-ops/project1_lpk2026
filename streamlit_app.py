@@ -19,3 +19,7 @@ a soft return is used for the next line.
 Two (or more) newline characters in a row will result in a hard return.
 '''
 st.markdown(multi)
+import streamlit as st
+
+st.title("This is a title")
+st.title("_Streamlit_ is :blue[cool] :sunglasses:")
